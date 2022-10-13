@@ -2,6 +2,7 @@
 靴の修理をオンラインで受付けられるサービスのモックアプリです。  
 現在はバックエンド部分の開発中です。  
 - [APIリポジトリ](https://github.com/shogo02/online-repair-api "online-repair-api")
+- [サービスページ(現在はなにも表示されません)](https://shogo02.github.io/online-repair-front/ "")
 
 # 機能一覧（予定）
 - アカウントの登録、変更、削除
@@ -19,12 +20,14 @@
 - Github Pages
   - Github Cliを用いて、デプロイ
 - FastAPI(Python)
-- Github Actions
+- Docker
+- Github Actions(Github→ECR→Lambdaデプロイの自動化)
 - AWS
   - ECR
   - Lambda(コンテナイメージ)
   - API Gateway
   - RDS
+ 
 ![architecture](../doc/architecture.png "architecture")
 
 # やることリスト
